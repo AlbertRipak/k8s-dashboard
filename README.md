@@ -53,16 +53,9 @@ kubectl create token user
 ```
 ![Image](./data/kubernetes-dashboard.gif)
 
-У разі зміни чи необхідності видалення створених дій!
+<b>У разі зміни чи необхідності видалення створених дій!</b>
 ```shell
 kubectl delete serviceaccount user
 kubectl delete clusterrolebinding cluster-admin-user
 kubectl delete -f recommended.yaml
-```
-
-```shell
-```
-```shell
-```
-```shell
 ```
